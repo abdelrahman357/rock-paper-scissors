@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container h1 {
+    font-size: 50px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.container .game {
+    width: 350px;
+    text-align: center;
+}
+.container .game p {
+    font-size: 25px;
+}
+.container .game .buttons {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.container .game .buttons button {
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.container .game .score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.container .game span {
+    font-size: 25px;
+    display: inline-block;
+
+}
+.container .game span.you {
+    margin-right: auto;
+}
